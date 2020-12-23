@@ -19,10 +19,14 @@ const settings = {
 printDBsettings(settings)
 
 Output if there is no env:
+
+
 ![image](https://user-images.githubusercontent.com/1642357/103044709-84da4f80-45bc-11eb-8d0a-34e47a21ef01.png)
 
 OR 
 If there is an env
+
+
 ![image](https://user-images.githubusercontent.com/1642357/103044983-a7209d00-45bd-11eb-937d-e79ca7666315.png)
 
 
