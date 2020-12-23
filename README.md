@@ -1,7 +1,9 @@
 # printDBsettings
 
-# Usage
+# Usage]
+`$ npm install --save printdbsettings`
 
+```
 const {printDBsettings} = require('printdbsettings')
 
 const settings = {
@@ -17,6 +19,7 @@ const settings = {
 }
 
 printDBsettings(settings)
+```
 
 Output if there is no env:
 
