@@ -1,3 +1,5 @@
+const chalk = require('chalk')
+
 const printDBsettings = (settings) => {
     let s = Object.assign({}, settings)
     try{
