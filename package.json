@@ -1,8 +1,12 @@
 {
-  "name": "fotoflo commonUtils",
+  "name": "commonutils",
   "version": "1.0.0",
-  "description": "Some common utils I use a lot",
+  "description": "# printDBsettings",
   "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/fotoflo/commonUtils.git"
   },
-  "author": "\"Alex Miller\" <fotoflo@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fotoflo/commonUtils/issues"
   },
-  "homepage": "https://github.com/fotoflo/commonUtils#readme",
-  "dependencies": {
-    "chalk": "^4.1.0"
-  }
+  "homepage": "https://github.com/fotoflo/commonUtils#readme"
 }
