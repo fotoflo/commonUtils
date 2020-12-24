@@ -25,6 +25,12 @@ const printDBsettings = (settings) => {
     return true
   }
 
+  function newDateString(date){
+    const d = date ? date : new Date()
+    return d.toDateString() + " - " + d.toLocaleTimeString()
+  }
+
   module.exports = {
-    printDBsettings
+    printDBsettings,
+    newDateString
   };

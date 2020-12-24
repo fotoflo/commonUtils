@@ -1,19 +1,19 @@
 {
-  "name": "printdbsettings",
+  "name": "fotoflo commonUtils",
   "version": "1.0.0",
-  "description": "print db settings, remove *** out the the password",
+  "description": "Some common utils I use a lot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fotoflo/printDBsettings.git"
+    "url": "git+https://github.com/fotoflo/commonUtils.git"
   },
   "author": "\"Alex Miller\" <fotoflo@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fotoflo/printDBsettings/issues"
+    "url": "https://github.com/fotoflo/commonUtils/issues"
   },
-  "homepage": "https://github.com/fotoflo/printDBsettings#readme"
+  "homepage": "https://github.com/fotoflo/commonUtils#readme"
 }

@@ -1,10 +1,10 @@
+# commonUtils
+
 # printDBsettings
 
-# Usage]
-`$ npm install --save printdbsettings`
-
+`$ npm install --save commonUtils`
 ```
-const {printDBsettings} = require('printdbsettings')
+const {printDBsettings} = require('commonUtils')
 
 const settings = {
   'user'                  : process.env.DB_USER,
@@ -32,4 +32,11 @@ If there is an env
 
 ![image](https://user-images.githubusercontent.com/1642357/103044983-a7209d00-45bd-11eb-937d-e79ca7666315.png)
 
+# newDateString
 
+
+`$ npm install --save commonUtils`
+```
+const {newDateString} = require('commonUtils')
+console.log(`${newDateString()} - logging to console`)
+```
