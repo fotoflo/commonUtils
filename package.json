@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fotoflo/commonUtils/issues"
   },
-  "homepage": "https://github.com/fotoflo/commonUtils#readme"
+  "homepage": "https://github.com/fotoflo/commonUtils#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
