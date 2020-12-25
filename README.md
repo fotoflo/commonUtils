@@ -56,4 +56,12 @@ console.log(`${newDateString()} - logging to console`)
 `Sat Dec 26 2020 - 5:00:42 AM - logging to console`
 
 # roughSizeOfObject( obj )
-returns the rough size of the object in bytes
+returns the rough size of the object formatted with formatBytes
+
+# formatBytes()
+// formatBytes(bytes,decimals)
+
+formatBytes(1024);       // 1 KB
+formatBytes('1024');     // 1 KB
+formatBytes(1234);       // 1.21 KB
+formatBytes(1234, 3);    // 1.205 KB
