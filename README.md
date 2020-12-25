@@ -2,7 +2,7 @@
 
 # printDBsettings
 
-`$ npm install --save commonUtils`
+`$ npm install --save fotoflo/commonUtils`
 ```
 const {printDBsettings} = require('commonUtils')
 
@@ -35,7 +35,7 @@ If there is an env
 # newDateString
 
 
-`$ npm install --save commonUtils`
+`$ npm install --save fotoflo/commonUtils`
 ```
 const {newDateString} = require('commonUtils')
 console.log(`${newDateString()} - logging to console`)
