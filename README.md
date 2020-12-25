@@ -1,5 +1,18 @@
 # commonUtils
 
+# getDuration
+takes two timestamps, returns a duration
+  ```
+    const {getDuration} = require('commonUtils')
+    const sleep = require('util').promisify(setTimeout)
+    
+    const start = new Date()
+    await sleep(1000)
+    const end = new Date()
+    console.log(`${getDuration(start,end)}`)
+  ```
+
+
 # printDBsettings
 
 `$ npm install --save fotoflo/commonUtils`
@@ -32,7 +45,7 @@ If there is an env
 
 ![image](https://user-images.githubusercontent.com/1642357/103044983-a7209d00-45bd-11eb-937d-e79ca7666315.png)
 
-# newDateString
+# newDateString([Date])
 
 
 `$ npm install --save fotoflo/commonUtils`
@@ -40,3 +53,7 @@ If there is an env
 const {newDateString} = require('commonUtils')
 console.log(`${newDateString()} - logging to console`)
 ```
+`Sat Dec 26 2020 - 5:00:42 AM - logging to console`
+
+# roughSizeOfObject( obj )
+returns the rough size of the object in bytes
